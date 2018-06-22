@@ -1,0 +1,20 @@
+header nav {
+
+  height: $nav-height;
+  background-color: $brand-color;
+  font: 30px $font-stack;
+
+  h1 {
+    float: left;
+    padding-left: 100px;
+  }
+
+  ul {
+    float: right;
+
+    li {
+      float: left;
+      list-style-type: none;
+    }
+  }
+}

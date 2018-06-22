@@ -1,0 +1,14 @@
+@mixin buttons ($background-color) {
+  width: 100%;
+  height: 50px;
+  font: 30px $font-stack;
+  border-radius: 15px;
+  background-color: $background-color;
+}
+
+.good-button {
+  @include buttons(rgb(163, 235, 163));
+}
+.bad-button {
+  @include buttons(rgb(228, 152, 152));
+}
